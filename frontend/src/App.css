@@ -1,0 +1,49 @@
+.App {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: rgb(15, 15, 57);
+}
+.content{
+    background-color: rgb(55, 52, 69);
+    height: 430px;
+    width: 450px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.top{
+    color:aquamarine;
+    margin-top: 40px;
+    padding: 0 10px 0 10px;
+}
+.advice{
+    color: white;
+    margin-top: 70px;
+}
+.line{
+    margin: 20px 30px 0px 30px;
+}
+.bottom{
+    position: absolute;
+    bottom: -25px;
+}
+.dice{
+    background-color:aquamarine;
+    color: black;
+    font-size: larger;
+    border-radius: 50%;
+    padding: 30px;
+    cursor: pointer;
+    font-weight:bold;
+}
